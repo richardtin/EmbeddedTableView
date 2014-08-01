@@ -21,6 +21,7 @@
 		79C2167E198BDE600079547D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C21660198BDE600079547D /* UIKit.framework */; };
 		79C21686198BDE600079547D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79C21684198BDE600079547D /* InfoPlist.strings */; };
 		79C21688198BDE600079547D /* EmbeddedTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C21687198BDE600079547D /* EmbeddedTableViewTests.m */; };
+		79C21693198BE8430079547D /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C21692198BE8430079547D /* ListTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		79C21683198BDE600079547D /* EmbeddedTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmbeddedTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		79C21685198BDE600079547D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79C21687198BDE600079547D /* EmbeddedTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedTableViewTests.m; sourceTree = "<group>"; };
+		79C21691198BE8430079547D /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		79C21692198BE8430079547D /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				79C2166B198BDE600079547D /* AppDelegate.h */,
 				79C2166C198BDE600079547D /* AppDelegate.m */,
 				79C2166E198BDE600079547D /* Main.storyboard */,
+				79C21691198BE8430079547D /* ListTableViewCell.h */,
+				79C21692198BE8430079547D /* ListTableViewCell.m */,
 				79C21671198BDE600079547D /* ViewController.h */,
 				79C21672198BDE600079547D /* ViewController.m */,
 				79C21674198BDE600079547D /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79C21673198BDE600079547D /* ViewController.m in Sources */,
+				79C21693198BE8430079547D /* ListTableViewCell.m in Sources */,
 				79C2166D198BDE600079547D /* AppDelegate.m in Sources */,
 				79C21669198BDE600079547D /* main.m in Sources */,
 			);
